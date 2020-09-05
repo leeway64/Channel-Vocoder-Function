@@ -1,4 +1,4 @@
-# Channel-Vocoder-Function
+# Channel Vocoder Function
 This project created a channel vocoder function in MATLAB that could synthesize “robotic” sounding speech according to a user-designated sound file.
 
 The channel vocoder is a method of altering a sound signal by band-pass filtering the modulator signal (the input) and the carrier signal, and then multiplying the modulator and the carrier signals together. The results are summed with the products of other frequency bands.
