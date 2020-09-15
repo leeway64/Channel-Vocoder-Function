@@ -13,3 +13,5 @@ I would like to credit UW Bothell professor Dr. Kaibao Nie for providing the spe
 ![Filter bank](https://github.com/leeway64/Channel-Vocoder-Function/blob/master/Filter%20Bank.jpg)
 
 First, the input signal is divided into various frequency bands by applying a different band-pass filter for each frequency band; the frequency bands of the filter is determined by the function bands_cutoff.m. For each frequency band, the absolute value is taken, and then a low-pass filter is applied. A sinusoidal signal is multiplied onto the result, and then another band-pass filter is applied. Finally, the results for each frequency band is summed with each other to produce the vocoded sound.
+
+Note that the MATLAB function that implements the vocoder is "Channel_Vocoder.m".
