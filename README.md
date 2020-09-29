@@ -5,7 +5,7 @@ The channel vocoder is a method of altering a sound signal by band-pass filterin
 
 The channel vocoder can be used to create a robotic voice, which is used extensively as a sound effect. Another application is found in the realm of biomedical devices. To simulate what hearing speech is like for people with cochlear implants, the channel vocoder can be used.
 
-I would like to credit UW Bothell professor Dr. Kaibao Nie for providing the specifications for the project, along with the "bands_cutoff.m" function.
+This project is from the course BEE 235. I would like to credit UW Bothell professor Dr. Kaibao Nie for providing the specifications for the project, along with the "bands_cutoff.m" function.
 
 
 # Summary of theory of operation
